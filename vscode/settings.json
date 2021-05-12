@@ -1,0 +1,35 @@
+{
+    "editor.fontSize": 14,
+    "editor.maxTokenizationLineLength": 200000,
+    "jupyter.alwaysTrustNotebooks": true,
+    "go.useLanguageServer": true,
+    "C_Cpp.updateChannel": "Insiders",
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "terminal.integrated.inheritEnv": false,
+    "workbench.editorAssociations": [
+        {
+            "viewType": "jupyter.notebook.ipynb",
+            "filenamePattern": "*.ipynb"
+        }
+    ],
+    "remote.SSH.defaultExtensions": [
+        "eamodio.gitlens",
+        "mutantdino.resourcemonitor",
+        "twxs.cmake",
+        "ms-vscode.cmake-tools",
+        "picoscell.nrtxm"
+    ],
+    "gitlens.advanced.messages": {
+        "suppressImproperWorkspaceCasingWarning": true
+    },
+    "mssql.connections": [
+        {
+            "server": "{{put-server-name-here}}",
+            "database": "{{put-database-name-here}}",
+            "user": "{{put-username-here}}",
+            "password": "{{put-password-here}}"
+        }
+    ],
+    "cmake.configureOnOpen": true
+}
