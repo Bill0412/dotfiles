@@ -18,9 +18,19 @@
         "mutantdino.resourcemonitor",
         "twxs.cmake",
         "ms-vscode.cmake-tools",
-        "picoscell.nrtxm"
+        "picoscell.nrtxm",
+        "ms-vscode.cpptools"
+    ],
+    "remote.containers.defaultExtensions": [
+        "eamodio.gitlens",
+        "mutantdino.resourcemonitor",
+        "twxs.cmake",
+        "ms-vscode.cmake-tools",
+        "picoscell.nrtxm",
+        "ms-vscode.cpptools"
     ],
     "gitlens.advanced.messages": {
+        "suppressGitVersionWarning": true,
         "suppressImproperWorkspaceCasingWarning": true
     },
     "mssql.connections": [
